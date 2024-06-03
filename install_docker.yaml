@@ -1,7 +1,5 @@
 ---
 - name: Install Docker on Azure DevOps Agent
-  hosts: azure_devops_agents
-  become: yes
   tasks:
     - name: Update apt repository
       apt:
